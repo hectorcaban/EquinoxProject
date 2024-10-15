@@ -11,7 +11,7 @@ The goal of this project is implement the most common used technologies and shar
 [![License](https://img.shields.io/github/license/eduardopires/equinoxproject.svg)](LICENSE)
 [![Issues open](https://img.shields.io/github/issues/eduardopires/equinoxproject.svg)](https://huboard.com/EduardoPires/EquinoxProject/)
 
-## Give a Star! :star:
+## Give a Star! :star: 
 If you liked the project or if Equinox helped you, please give a star ;)
 
 ## Want to learn everything?  :mortar_board:
