@@ -42,6 +42,10 @@ namespace Equinox.Infra.CrossCutting.Identity.Configuration
                         options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
                                 b => b.MigrationsAssembly("Equinox.Infra.CrossCutting.Identity.Data")));
 
+            //builder.Services.AddDbContext<EquinoxIdentityContext>(options =>
+            //  options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+            
+
             return builder;
         }
 

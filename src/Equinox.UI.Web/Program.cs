@@ -5,7 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Adding Services
 builder.AddMvcConfiguration()                   // Entire Equinox MVC Config
-       .AddDatabaseConfiguration()              // Setting DBContexts
+       //.AddDatabaseConfiguration()              // Setting DBContexts
+       .AddSQLLiteConfiguration()
        .AddWebIdentityConfiguration()           // ASP.NET Identity Config
        .AddAutoMapperConfiguration()            // AutoMapper Config
        .AddMediatRConfiguration()               // Adding MediatR for Domain Events and Notifications

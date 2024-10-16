@@ -6,7 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Configure Services
 builder.AddApiConfiguration()                   // Api Configurations
-       .AddDatabaseConfiguration()              // Setting DBContexts
+       //.AddDatabaseConfiguration()              // Setting DBContexts
+       .AddSQLLiteConfiguration()
        .AddApiIdentityConfiguration()           // ASP.NET Identity Settings & JWT
        .AddAutoMapperConfiguration()            // AutoMapper Settings
        .AddSwaggerConfiguration()               // Swagger Config
