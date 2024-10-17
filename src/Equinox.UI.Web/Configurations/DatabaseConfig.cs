@@ -26,7 +26,7 @@ namespace Equinox.UI.Web.Configurations
                 options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddEntityFrameworkSqlite().AddDbContext<EventStoreSqlContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             return builder;
         }

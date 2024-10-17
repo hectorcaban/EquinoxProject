@@ -7,14 +7,15 @@
 		<ProjectReference Include="..\Equinox.Domain\Equinox.Domain.csproj" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="Azure.Identity" Version="1.12.0" />
-		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
-		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.7" />
-		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.7" />
-		<PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="8.0.7" />
-		<PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.7" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+		<PackageReference Include="Azure.Identity" Version="1.13.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="8.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>

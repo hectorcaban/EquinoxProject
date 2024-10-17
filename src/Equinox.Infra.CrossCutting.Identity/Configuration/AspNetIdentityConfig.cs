@@ -38,13 +38,13 @@ namespace Equinox.Infra.CrossCutting.Identity.Configuration
 
         private static WebApplicationBuilder AddIdentityDbContext(this WebApplicationBuilder builder)
         {
-            builder.Services.AddDbContext<EquinoxIdentityContext>(options =>
-                        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
-                                b => b.MigrationsAssembly("Equinox.Infra.CrossCutting.Identity.Data")));
-
             //builder.Services.AddDbContext<EquinoxIdentityContext>(options =>
-            //  options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
-            
+            //            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
+            //                    b => b.MigrationsAssembly("Equinox.Infra.CrossCutting.Identity.Data")));
+
+            builder.Services.AddDbContext<EquinoxIdentityContext>(options =>
+              options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
             return builder;
         }
